@@ -2,7 +2,7 @@
 mysqlclient静态编译包，不依赖mysql库，快速安装。包含 Mac、windows、Linux平台。
 ## 1.简介
 python3中操作数据库主要是通过mysqlclient， 可是安装过程比较坑，
-(尤其是mac、win平台，主要是回报很多编译的错误，缺少mysql库  缺少编译环境。。。)
+(尤其是mac、win平台，主要是会报很多编译的错误，缺少mysql库  缺少编译环境等)
 处理起来费事费力。 
 本项目提供了 mac  linux win平台的静态编译包。 安装过程无需编译，即安即用。
 
@@ -16,6 +16,8 @@ python3中操作数据库主要是通过mysqlclient， 可是安装过程比较�
 mysqlclient-1.4.6-cp37-cp37m-win_amd64.whl
 
 #### 2. 安装
+直接通过pip 安装下载好的包。
+如:
 ```shell script
 pip3 install mysqlclient-1.4.6-cp37-cp37m-win_amd64.whl
 ```
